@@ -7,15 +7,15 @@
 }
 
 body{
+    position: fixed;
+    top: 0;
     background-color: #000000;
     height: 98vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 64px 1fr;
 }
 
 .navbar{
-    position: sticky;
-    top: 0;
     min-width: 800px;
     max-width: 100%;
     height: 64px;
@@ -32,7 +32,6 @@ body{
     height: 64px;
     padding: 4px;
     margin: 0 10px;
-    justify-self: flex-start;
 }
 .logo img{
     width: 32px;
@@ -160,7 +159,7 @@ button.browse{
 }
 
 .left{
-    position: relative;
+    /* position: relative; */
     min-width: 300px;
     max-width: 28vw;
     height: 100%;
