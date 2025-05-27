@@ -69,6 +69,10 @@
     padding: 0 20px;
 }
 
+.m-2{
+    margin: 30px auto;
+}
+
 .fs-15{
     font-size: 15px;
 }
@@ -94,4 +98,8 @@
 
 .cursor-pointer{
     cursor: pointer;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
 }

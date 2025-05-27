@@ -172,8 +172,8 @@ button{
     cursor: pointer;
 }
 .right{
-    min-width: 700px;
-    max-width: 72vw;
+    /* min-width: 700px; */
+    width: 72vw;
     height: 100%;
     overflow-y: auto;
     overflow-x: auto;
@@ -263,4 +263,84 @@ button{
     transition-timing-function: ease-in-out;
     cursor: pointer;
     background-color: #efe5e5;
+}
+
+
+.songs{
+    width: 92%;
+    height: auto;
+}
+
+.song-cards{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.song-card{
+    width: 200px;
+    height: 290px;
+    padding: 10px;
+}
+
+.cover-img{
+    position: relative;
+}
+
+.cover{
+    width: 172px;
+    height: 172px;
+    border-radius: 10px;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.play-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1ed760;
+}
+
+.play-btn:hover{
+    transform: scale(1.04);
+    transition-timing-function: ease-in-out;
+    background-color: #1db954;
+}
+.play-btn img{
+    bottom: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.navarr{
+    position: absolute;
+    top: 45%;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    z-index: 100;
+    background-color:#2a2a2a;
+    opacity: 0.8;
+    border: none;
+}
+
+.navarr .right{
+    position: absolute;
+    top: 45%;
+    right: 100%;
+}
+
+.navarr img{
+    width: 16px;
+    height: 16px;
 }
