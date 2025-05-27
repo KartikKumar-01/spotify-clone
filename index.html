@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <nav class="flex navbar align-center">
+      <div class="logo flex align-center justify-center">
+        <img src="Assets/SVGs/logo.svg" alt="logo" />
+      </div>
+      <div class="home-search flex align-center">
+        <button id="home-button" class="justify-center align-center flex">
+          <img src="Assets/SVGs/home.svg" alt="home" />
+        </button>
+        <form
+          action="/search"
+          method="get"
+          class="search-bar flex align-center"
+        >
+          <button class="search flex align-center">
+            <img src="Assets/SVGs/search.svg" alt="search" />
+          </button>
+          <input
+            type="search"
+            name="q"
+            placeholder="What do you want to play?"
+          />
+          <button class="browse flex align-center">
+            <img src="Assets/SVGs/browse.svg" alt="browse" />
+          </button>
+        </form>
+      </div>
+
+      <div class="auth flex align-center justify-right">
+        <button class="signup">Sign up</button>
+        <button class="login">Log in</button>
+      </div>
+    </nav>
+
+    <div class="container flex justify-space-between align-center">
+      <div class="left flex-column bg-dkgrey mg-lf-rg cnt-border">
+        <div
+          class="header flex justify-space-between center b-700 fs-15"
+        >
+          <span>Your Library</span>
+          <span><img src="Assets/SVGs/plus.svg" alt="" /></span>
+        </div>
+        <div class="cards flex-column center">
+          <div
+            class="card flex-column bg-lgtgrey cnt-border center p-1 justify-space-between"
+          >
+            <div class="txt flex-column">
+              <span class="b-700">Create your first playlist</span
+              ><span class="fs-13 bold">It's easy, we'll help you</span>
+            </div>
+            <button class="card-btn f-black b-700">Create playlist</button>
+          </div>
+          <div
+            class="card flex-column bg-lgtgrey cnt-border center p-1 justify-space-between"
+          >
+            <div class="txt flex-column">
+              <span class="b-700">Let's find some podcasts to follow</span
+              ><span class="fs-13 bold"
+                >We'll keep you updated on new episodes</span
+              >
+            </div>
+            <button class="card-btn f-black b-700" style="width: 142px">
+              Browse podcasts
+            </button>
+          </div>
+        </div>
+        <div class="footer flex-column">
+          <div class="links flex p-2">
+            <span>Legal</span><span>Safety&Privacy Center</span
+            ><span>Privacy Policy</span><span>Cookies</span
+            ><span>About ads</span><span>Accessibility</span>
+          </div>
+          <div class="links2 flex p-2"><span class="cursor-pointer">Cookies</span></div>
+          <div class="p-1"><button class="footer-btn b-700 flex justify-center align-center"><img src="Assets/SVGs/globe.svg" alt=""><span>English</span></button></div>
+          
+        </div>
+      </div>
+      <div class="right bg-lgtgrey mg-lf-rg cnt-border"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+.border{
+    border: 2px solid red;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+.bg-dkgrey{
+    background-color: #121212;
+}
+.justify-right{
+    justify-content: flex-end;
+}
+
+.bg-lgtgrey{
+    background-color: #1d1d1d;
+}
+
+
+.mg-lf-rg{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.cnt-border{
+    border: none;
+    border-radius: 10px;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.center{
+    margin: 5px auto;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.b-700{
+    font-weight: 700;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.p-1{
+    padding: 20px;
+}
+.p-2{
+    padding: 0 20px;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.fs-13{
+    font-size: 14px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.f-11{
+    font-size: 11px;
+}
+.f-black{
+    color: black;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
