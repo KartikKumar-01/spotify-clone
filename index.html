@@ -41,7 +41,7 @@
       </div>
     </nav>
 
-    <div class="container flex justify-space-between align-center">
+    <div class="container flex align-center">
       <div class="left flex-column bg-dkgrey mg-lf-rg cnt-border">
         <div class="header flex justify-space-between center b-700 fs-15">
           <span>Your Library</span>
@@ -66,9 +66,11 @@
                 >We'll keep you updated on new episodes</span
               >
             </div>
+            <div>
             <button class="card-btn f-black b-700" style="width: 142px">
               Browse podcasts
             </button>
+            </div>
           </div>
         </div>
         <div class="footer flex-column">
@@ -91,136 +93,64 @@
       <div class="right bg-lgtgrey mg-lf-rg cnt-border flex-column">
         <div class="songs flex-column m-2">
           <div class="headings"><h2>Trending Songs</h2></div>
-          <div
-            class="song-cards hide-scrollbar flex justify-space-between align-center"
-          >
-            <!-- <div class="navarr"> -->
-              <button class="navarr"><img src="Assets/SVGs/leftarrow.svg" alt="" /></button>
-            <!-- </div> -->
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Minnalvala.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
+          <button class="navarr left-arr">
+            <img src="Assets/SVGs/leftarrow.svg" alt="" />
+          </button>
+
+
+
+          
+
+
+
+          <div class="song-cards hide-scrollbar flex">
+            <!-- Songs will be added using js -->
+          </div>
+          <button class="navarr right-arr">
+            <img src="Assets/SVGs/rightarrow.svg" alt="" />
+          </button>
+        </div>
+
+
+        
+        <div class="player flex justify-center align-center">
+          <div class="curr-song flex align-center">
+            <div class="curr-song-img">
+              <img
+                src="Assets/Covers/Courtside.jpg"
+                alt=""
+                class="curr-song-img"
+              />
+            </div>
+            <div class="curr-song-info flex-column">
+              <div class="curr-song-name"><span>Courtside</span></div>
+              <div class="curr-song-singers flex">
+                <span class="wrap"
+                  ><a href="">Karan Aujla</a>,
+                  <a href="">Signature By SB</a></span
+                >
               </div>
             </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Shaky.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/IshqMera.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/STFU.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/LaalPari.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Courtside.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/PalPal.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/JaatIntro.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Besos.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Jhol.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Pistol.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Knock.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Qayamat.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Supreme.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-            <div class="song-card flex-column">
-              <div class="cover-img">
-                <img class="cover" src="Assets/Covers/Samjhawan.jpg" alt="" />
-                <button class="play-btn">
-                  <img src="Assets/SVGs/play.svg" alt="" />
-                </button>
-              </div>
-            </div>
-          <button class="navarr right"><img src="Assets/SVGs/rightarrow.svg" alt="" /></button>
+          </div>
+
+          <div id="previous">
+            <button class="prev-btn">
+              <img src="Assets/SVGs/previous.svg" alt="" class="prev" />
+            </button>
+          </div>
+          <div class="playpause">
+            <button class="playpause-btn">
+              <img id="playpause" src="Assets/SVGs/playMusic.svg" alt="" />
+            </button>
+          </div>
+          <div id="next">
+            <button class="next-btn">
+              <img src="Assets/SVGs/next.svg" alt="" class="nxt" />
+            </button>
           </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

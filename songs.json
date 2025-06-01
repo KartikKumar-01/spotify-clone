@@ -1,0 +1,28 @@
+[
+    {   
+        "id" : "1",
+        "name" : "295",
+        "singers" : ["Sidhu Moose Wala"],
+        "singersUrl" : ["https://open.spotify.com/artist/4PULA4EFzYTrxYvOVlwpiQ"],
+        "coverImg" : "Assets/Covers/295.jpg",
+        "url" : "Assets/Songs/295 - Sidhu Moose Wala.mp3"
+    },
+
+    {
+        "id" : "2",
+        "name" : "Winning Speech",
+        "singers" : ["Karan Aujla", "Seshnolan"],
+        "singersUrl" : ["https://open.spotify.com/artist/6DARBhWbfcS9E4yJzcliqQ", "https://open.spotify.com/artist/4QsiFUy1ddAbRb1UnjvUWN"],
+        "coverImg" : ["Assets/Covers/WinningSpeech.jpg"],
+        "url" : "Assets/Songs/Winning Speech - Karan Aujla.mp3"
+    },
+
+    {
+        "id" : "3",
+        "name" : "STFU",
+        "singers" : ["AP Dhillon", "Shinda Kalon"],
+        "singersUrl" : ["https://open.spotify.com/artist/6LEG9Ld1aLImEFEVHdWNSB", "https://open.spotify.com/artist/6aQfrWHwAcuY8IYItbChZh"],
+        "coverImg" : "Assets/Covers/STFU.jpg",
+        "url" : "Assets/Songs/STFU - AP Dhillon.mp3"
+    }
+]
