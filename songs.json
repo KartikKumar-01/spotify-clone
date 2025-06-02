@@ -1,6 +1,7 @@
 [
     {   
         "id" : "1",
+        "tags" : ["trending"],
         "name" : "295",
         "singers" : ["Sidhu Moose Wala"],
         "singersUrl" : ["https://open.spotify.com/artist/4PULA4EFzYTrxYvOVlwpiQ"],
@@ -10,6 +11,7 @@
 
     {
         "id" : "2",
+        "tags" : ["trending"],
         "name" : "Winning Speech",
         "singers" : ["Karan Aujla", "Seshnolan"],
         "singersUrl" : ["https://open.spotify.com/artist/6DARBhWbfcS9E4yJzcliqQ", "https://open.spotify.com/artist/4QsiFUy1ddAbRb1UnjvUWN"],
@@ -19,10 +21,82 @@
 
     {
         "id" : "3",
+        "tags" : ["trending"],
         "name" : "STFU",
         "singers" : ["AP Dhillon", "Shinda Kalon"],
         "singersUrl" : ["https://open.spotify.com/artist/6LEG9Ld1aLImEFEVHdWNSB", "https://open.spotify.com/artist/6aQfrWHwAcuY8IYItbChZh"],
         "coverImg" : "Assets/Covers/STFU.jpg",
         "url" : "Assets/Songs/STFU - AP Dhillon.mp3"
+    },
+
+    {
+        "id" : "4",
+        "tags" : ["trending"],
+        "name" : "Shree Hanuman Chalisa",
+        "singers" : ["Hariharan"],
+        "singersUrl" : ["https://open.spotify.com/artist/2NoJ7NuNs9nyj8Thoh1kbu"],
+        "coverImg" : "Assets/Covers/HanumanChalisa.jpg",
+        "url" : "Assets/Songs/Shree Hanuman Chalisa - Hariharan.mp3"
+    },
+
+    {
+        "id" : "5",
+        "tags" : ["trending"],
+        "name" : "Laal Pari(From \"Housefull 5\")",
+        "singers" : ["Yo Yo Honey Singh", "Simar Kaur", "Alfaaz"],
+        "singersUrl" : ["https://open.spotify.com/artist/7uIbLdzzSEqnX0Pkrb56cR", "https://open.spotify.com/artist/5yI5MjFLwQwfP24OxchqN1", "https://open.spotify.com/artist/1xHIVVHhwnuYe0uCAip33C"],
+        "coverImg" : "Assets/Covers/LaalPari.jpg",
+        "url" : "Assets/Songs/Laal Pari - DjPunjab.Com.Se.mp3"
+    },
+
+    {
+        "id" : "6",
+        "tags" : ["trending"],
+        "name" : "Courtside",
+        "singers" : ["Karan Aujla", "Signature By SB"],
+        "singersUrl" : ["https://open.spotify.com/artist/6DARBhWbfcS9E4yJzcliqQ", "https://open.spotify.com/artist/5uhcvmuj3X2tr8ooCLrUAx"],
+        "coverImg" : "Assets/Covers/Courtside.jpg",
+        "url" : "Assets/Songs/Courtside - Karan Aujla.mp3"
+    },
+
+    {
+        "id" : "7",
+        "tags" : ["trending"],
+        "name" : "Qayamat",
+        "singers" : ["White Noise Collectives", "Neeraj Shridhar", "Shruti Dhasmana", "Som"],
+        "singersUrl" : ["https://open.spotify.com/artist/73vvjIbxF9MP8VZG3tthUC", "https://open.spotify.com/artist/3tHD07u1ON4uHxmnT9rwqZ", "https://open.spotify.com/artist/6IWgkz5oMp5pJwM7T3drvr", "https://open.spotify.com/artist/5zmdcf0ZaJEo0GeJbA6sh9"],
+        "coverImg" : "Assets/Covers/Qayamat.jpg",
+        "url" : "Assets/Songs/Qayamat (PenduJatt.Com.Se).mp3"
+    },
+
+    {
+        "id" : "8",
+        "tags" : ["trending"],
+        "name" : "4 5 Pistol",
+        "singers" : ["Masoom Sharma", "Swara Verma"],
+        "singersUrl" : ["https://open.spotify.com/artist/36iDrP3UnCxsSH9LuSdkDj", "https://open.spotify.com/artist/1p8AG9V0Y60vhvdYdRbxqn"],
+        "coverImg" : "Assets/Covers/Pistol.jpg",
+        "url" : "Assets/Songs/4 5 Pistol (PenduJatt.Com.Se).mp3"
+    },
+
+    {
+        "id" : "9",
+        "tags" : ["trending"],
+        "name" : "Jaat Intro",
+        "singers" : ["Ajay Bhagta", "Manisha Sharma", "Kb Dhull"],
+        "singersUrl" : ["https://open.spotify.com/artist/2AROpfEsCIX5oKbtB1oAWM", "https://open.spotify.com/artist/0zVGGSBVti6Dx67hJstvSf", "https://open.spotify.com/artist/4B9OZqc752uSKUKVXOzigG"],
+        "coverImg" : "Assets/Covers/JaatIntro.jpg",
+        "url" : "Assets/Songs/Jaat Intro(KoshalWorld.Com).mp3"
+    },
+
+    {
+        "id" : "10",
+        "tags" : ["trending"],
+        "name" : "Supreme",
+        "singers" : ["Shubh"],
+        "singersUrl" : ["https://open.spotify.com/artist/5r3wPya2PpeTTsXsGhQU8O"],
+        "coverImg" : "Assets/Covers/Supreme.jpg",
+        "url" : "Assets/Songs/Supreme - Shubh.mp3"
     }
+    
 ]

@@ -109,7 +109,18 @@
     white-space: nowrap;           /* Prevent text from wrapping */
   overflow: hidden;              /* Hide overflow content */
   text-overflow: ellipsis;
-  width: 70%;
+  width: 90%;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+button{
+    border: none;
+    background-color: transparent;
 }
 
 *::-webkit-scrollbar {

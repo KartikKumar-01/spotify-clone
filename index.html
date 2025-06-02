@@ -16,7 +16,8 @@
         <button id="home-button" class="justify-center align-center flex">
           <img src="Assets/SVGs/home.svg" alt="home" />
         </button>
-        <form
+        <div class="search-container ">
+          <form
           action="/search"
           method="get"
           class="search-bar flex align-center"
@@ -33,6 +34,7 @@
             <img src="Assets/SVGs/browse.svg" alt="browse" />
           </button>
         </form>
+        </div>
       </div>
 
       <div class="auth flex align-center justify-right">
@@ -41,38 +43,18 @@
       </div>
     </nav>
 
-    <div class="container flex align-center">
+    <div class="container flex justify-center align-center">
       <div class="left flex-column bg-dkgrey mg-lf-rg cnt-border">
         <div class="header flex justify-space-between center b-700 fs-15">
           <span>Your Library</span>
           <span><img src="Assets/SVGs/plus.svg" alt="" /></span>
         </div>
-        <div class="cards flex-column center">
-          <div
-            class="card flex-column bg-lgtgrey cnt-border center p-1 justify-space-between"
-          >
-            <div class="txt flex-column">
-              <span class="b-700">Create your first playlist</span
-              ><span class="fs-13 bold">It's easy, we'll help you</span>
-            </div>
-            <button class="card-btn f-black b-700">Create playlist</button>
-          </div>
-          <div
-            class="card flex-column bg-lgtgrey cnt-border center p-1 justify-space-between"
-          >
-            <div class="txt flex-column">
-              <span class="b-700">Let's find some podcasts to follow</span
-              ><span class="fs-13 bold"
-                >We'll keep you updated on new episodes</span
-              >
-            </div>
-            <div>
-            <button class="card-btn f-black b-700" style="width: 142px">
-              Browse podcasts
-            </button>
-            </div>
-          </div>
+        
+
+        <div class="library-songs flex-column">
+         
         </div>
+
         <div class="footer flex-column">
           <div class="links flex p-2">
             <span>Legal</span><span>Safety&Privacy Center</span
@@ -97,12 +79,6 @@
             <img src="Assets/SVGs/leftarrow.svg" alt="" />
           </button>
 
-
-
-          
-
-
-
           <div class="song-cards hide-scrollbar flex">
             <!-- Songs will be added using js -->
           </div>
@@ -111,8 +87,6 @@
           </button>
         </div>
 
-
-        
         <div class="player flex justify-center align-center">
           <div class="curr-song flex align-center">
             <div class="curr-song-img">
@@ -125,7 +99,7 @@
             <div class="curr-song-info flex-column">
               <div class="curr-song-name"><span>Courtside</span></div>
               <div class="curr-song-singers flex">
-                <span class="wrap"
+                <span
                   ><a href="">Karan Aujla</a>,
                   <a href="">Signature By SB</a></span
                 >
@@ -133,20 +107,32 @@
             </div>
           </div>
 
-          <div id="previous">
-            <button class="prev-btn">
-              <img src="Assets/SVGs/previous.svg" alt="" class="prev" />
-            </button>
+          <div class="navigator flex align-center">
+            <div class="controls flex justify-center align-center">
+              <div id="previous">
+                <button class="prev-btn">
+                  <img src="Assets/SVGs/previous.svg" alt="" class="prev" />
+                </button>
+              </div>
+              <div class="playpause">
+                <button class="playpause-btn">
+                  <img id="playpause" src="Assets/SVGs/playMusic.svg" alt="" />
+                </button>
+              </div>
+              <div id="next">
+                <button class="next-btn">
+                  <img src="Assets/SVGs/next.svg" alt="" class="nxt" />
+                </button>
+              </div>
+            </div>
+            <div class="timer">
+              <span class="current-time">0:00</span>
+              <span> / </span>
+              <span class="total-duration">3:00</span>
+            </div>
           </div>
-          <div class="playpause">
-            <button class="playpause-btn">
-              <img id="playpause" src="Assets/SVGs/playMusic.svg" alt="" />
-            </button>
-          </div>
-          <div id="next">
-            <button class="next-btn">
-              <img src="Assets/SVGs/next.svg" alt="" class="nxt" />
-            </button>
+          <div class="progress-bar-wrapper">
+            <div class="progress-bar"></div>
           </div>
         </div>
       </div>

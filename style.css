@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   margin: 0;
@@ -29,6 +28,8 @@ body {
   width: 870px;
   height: 48px;
 }
+
+
 
 .logo {
   width: 64px;
@@ -160,7 +161,7 @@ button.browse {
 }
 
 .left {
-  /* position: relative; */
+  position: relative;
   min-width: 300px;
   max-width: 28vw;
   height: 100%;
@@ -192,6 +193,76 @@ button {
   height: auto;
 }
 
+.left .library-songs {
+  width: 100%;
+  height: 380px;
+  overflow-y: auto;
+  gap: 5px;
+}
+
+.library-songs .library-song {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  background-color: #1d1d1d;
+  padding: 0 2px;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.library-song .song-img img {
+  object-fit: cover;
+  width: 45px;
+  border-radius: 5px;
+}
+.song-info {
+  flex: 1;
+  min-width: 0; /* allows content to shrink without overflow */
+}
+
+.library-play-btn img:hover {
+  transform: scale(1.1);
+}
+.singers {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.library-song.active {
+  background-color: rgba(255, 255, 255, 0.1); /* Light highlight */
+  border-left: 4px solid #1db954; /* Spotify green */
+  transition: background-color 0.3s;
+}
+
+.singers span {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.library-play-btn {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  border-radius: 5px;
+}
+
+.library-song:hover .library-play-btn {
+  opacity: 1;
+  background-color: #0000005d;
+  pointer-events: auto;
+}
+
+.library-play-btn img {
+  width: 25px;
+  height: 25px;
+}
+
 .left .cards {
   width: 100%;
   height: auto;
@@ -200,7 +271,7 @@ button {
 .card {
   width: 100%;
   /* min-height: 134px; */
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 
@@ -216,6 +287,8 @@ button {
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: auto;
   margin-top: 30px;
@@ -269,7 +342,7 @@ button {
 }
 
 .songs {
-    position: relative;
+  position: relative;
   width: 92%;
   height: auto;
 }
@@ -387,23 +460,20 @@ button {
   gap: 10px;
 }
 
-
 .singer span,
 span > * {
   color: #b3b3b3;
 }
 
 a {
-    
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 
-
-.right .player{
-  position:absolute;
+.right .player {
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 70px;
@@ -411,35 +481,97 @@ a:hover {
   gap: 10px;
 }
 
-.player button{
+.player button {
   background-color: transparent;
   border: none;
 }
 
-.player button img{
+.player button img {
   height: 30px;
 }
 
-.curr-song{
-  position: absolute;
-  left: 10px;
+.navigator {
+  width: 60%;
+  height: 100%;
   gap: 10px;
-  min-width: 100px;
+}
+.controls{
+  gap: 5px;
 }
 
-.curr-song .curr-song-img img{
+.curr-song {
+  gap: 10px;
+  min-width: 100px;
+  width: 40%;
+  margin: 0 5px;
+}
+
+.curr-song .curr-song-img img {
   border-radius: 10px;
   height: 60px;
-  outline: 2px solid white;  /* or any contrasting color */
+  outline: 2px solid white; /* or any contrasting color */
   outline-offset: -5px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-.curr-song-name span{
+.curr-song-name span {
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.curr-song-singers span{
+.curr-song-info {
+  max-width: 300px;
+  flex-shrink: 1;
+}
+
+.curr-song-singers {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  margin-top: 2px;
+}
+
+.curr-song-singers span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  min-width: 0;
   color: #b3b3b3;
+}
+
+.curr-song-singers a {
+  margin-right: 3px;
+}
+
+
+.progress-bar-wrapper{
+  position: absolute;
+  top: -5px;
+  left:0;
+  width: 100%;
+  height: 5px;
+  background-color: #000000;
+  flex-grow: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.progress-bar{
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  transition: width 0.1s linear;
+}
+
+.progress-bar-wrapper:hover {
+    height: 6px; 
+}
+
+.progress-bar-wrapper:hover .progress-bar {
+    background-color: #1db954;
 }
